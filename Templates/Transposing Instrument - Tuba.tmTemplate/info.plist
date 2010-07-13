@@ -6,7 +6,7 @@
 	<string>if [[ ! -f "$TM_NEW_FILE" ]]; then
    TM_YEAR=`date +%Y` \
    TM_DATE=`date +%Y/%m/%d` \
-   TM_LILY_VERSION="2.8.6" \
+   TM_LILY_VERSION=`exec /Applications/LilyPond.app/Contents/Resources/bin/lilypond -v | head -1 | sed 's/[^.0-9]//g'` \
    perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
       &lt; template.ly &gt; "$TM_NEW_FILE"
 fi</string>
