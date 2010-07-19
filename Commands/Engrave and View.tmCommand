@@ -20,7 +20,7 @@ if ! type &gt;/dev/null -p "$TM_LILYPOND"; then
 fi
 
 cd "$TM_DIRECTORY"
-"$TM_LILYPOND" "$TM_FILENAME" | pre
+"$TM_LILYPOND" -dmidi-extension=mid "$TM_FILENAME" | pre
 
 if [[ -f "${TM_FILEPATH%.*}.pdf" ]];
    then echo "Opening PDF…"; open "${TM_FILEPATH%.*}.pdf"
