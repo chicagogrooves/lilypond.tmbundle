@@ -5,7 +5,7 @@
 	<key>contactEmailRot13</key>
 	<string>wnpbobyhf@tznvy.pbz</string>
 	<key>contactName</key>
-	<string>Jacob Rus</string>
+	<string>Dean Radcliffe</string>
 	<key>description</key>
 	<string>Support for the &lt;a href="http://lilypond.org/web/"&gt;Lilypond&lt;/a&gt; music notation format.</string>
 	<key>mainMenu</key>
@@ -33,7 +33,7 @@
 		<!-- begin templates -->
 		<!-- solo piano -->
 		<string>B06CC484-F595-4C6A-95EB-D0E46123D9FE</string>
-		<!-- tuba (yes, tuba) -->
+		<!-- monophonic voice - for tuba (yes, tuba) -->
 		<string>D3C07401-61DF-42A5-A034-2E1637B0429A</string>
 		<!-- end templates -->
 		<string>E8B6A543-90A6-46A4-A307-B21B67EF7F2F</string>
