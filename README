@@ -1,1 +1,2 @@
 git clone https://chicagogrooves@github.com/chicagogrooves/lilypond.tmbundle.git /Applications/TextMate.app/Contents/SharedSupport/Bundles/LilyPond.tmbundle
+osascript -e 'tell app "TextMate" to reload bundles'
